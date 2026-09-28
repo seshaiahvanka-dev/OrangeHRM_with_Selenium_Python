@@ -1,0 +1,302 @@
+09/28/2026 10:53:24 AM: INFO: --------- Addoption Hook Running  ---------
+09/28/2026 10:53:25 AM: INFO: --------- Addoption Hook Running  ---------
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: --------- Addoption Hook Running  ---------
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: 📂 Attempting to read YAML data from: TestData/loginData.yml
+09/28/2026 10:53:25 AM: INFO: ✅ Successfully loaded 4 test data records from YAML.
+09/28/2026 10:53:25 AM: INFO: --------- Addoption Hook Running  ---------
+09/28/2026 10:53:25 AM: INFO: 📂 Attempting to read YAML data from: TestData/loginData.yml
+09/28/2026 10:53:25 AM: INFO: ✅ Successfully loaded 4 test data records from YAML.
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> username = Admin
+09/28/2026 10:53:25 AM: INFO: ⚙️ Config Read: [common info] -> password = ********
+09/28/2026 10:53:25 AM: INFO: 📂 Attempting to read YAML data from: TestData/loginData.yml
+09/28/2026 10:53:25 AM: INFO: ✅ Successfully loaded 4 test data records from YAML.
+09/28/2026 10:53:25 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:53:25 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:53:25 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:53:25 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:53:25 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:53:25 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:26 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:26 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:26 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:26 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:26 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:53:26 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:26 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:29 AM: INFO: Browser window maximized.
+09/28/2026 10:53:29 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:53:29 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:29 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:29 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:29 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:53:29 AM: INFO: **** Starting Data Driven Test: User=wrongUser, Expected=fail ****
+09/28/2026 10:53:29 AM: INFO: ⌨️ Typing 'wrongUser' into ('xpath', "//input[@name='username']")
+09/28/2026 10:53:29 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:53:29 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:53:29 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:53:30 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:30 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:30 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:53:30 AM: INFO: Browser window maximized.
+09/28/2026 10:53:30 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:53:30 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:30 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:30 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:30 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:53:30 AM: INFO: **** Starting Data Driven Test: User=Admin, Expected=fail ****
+09/28/2026 10:53:30 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:53:30 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:53:31 AM: INFO: ✅ Pass: Correctly showed error for invalid user: wrongUser
+09/28/2026 10:53:31 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:53:31 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:53:31 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:53:31 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:53:31 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:53:31 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:31 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:32 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:53:32 AM: INFO: ✅ Pass: Correctly showed error for invalid user: Admin
+09/28/2026 10:53:32 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:53:32 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:53:32 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:53:33 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:53:33 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:53:33 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:53:34 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:34 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:53:34 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:34 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:35 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:53:35 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:53:35 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:53:35 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:35 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:53:35 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:35 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:53:52 AM: INFO: Browser window maximized.
+09/28/2026 10:53:52 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:53:52 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:52 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:52 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:52 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:53:52 AM: INFO: **** Starting: test_add_new_job ****
+09/28/2026 10:53:52 AM: INFO: Logging in with user: Admin
+09/28/2026 10:53:52 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:53:52 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:53:53 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:53:53 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:53:53 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:53 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:56 AM: INFO: 🔍 Checking visibility of: ('xpath', "//h6[normalize-space()='Dashboard']")
+09/28/2026 10:53:57 AM: INFO: Browser window maximized.
+09/28/2026 10:53:57 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:53:57 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:57 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:57 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:57 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:53:57 AM: INFO: **** Starting Data Driven Test: User=Admin, Expected=pass ****
+09/28/2026 10:53:57 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:53:57 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:53:57 AM: INFO: ✅ Login successful, proceeding to Admin section
+09/28/2026 10:53:57 AM: INFO: Navigating to Admin -> Job -> Job Titles
+09/28/2026 10:53:57 AM: INFO: 🖱️ Clicking on element: ('xpath', "//span[text()='Admin']/parent::a")
+09/28/2026 10:53:57 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//span[text()='Admin']/parent::a")
+09/28/2026 10:53:58 AM: INFO: Browser window maximized.
+09/28/2026 10:53:58 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:53:58 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:58 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:58 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:53:58 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:53:58 AM: INFO: **** Starting Data Driven Test: User=wrongUser, Expected=fail ****
+09/28/2026 10:53:58 AM: INFO: ⌨️ Typing 'wrongUser' into ('xpath', "//input[@name='username']")
+09/28/2026 10:53:58 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:53:59 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:53:59 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:53:59 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:59 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:53:59 AM: INFO: 🔍 Checking visibility of: ('xpath', "//h6[normalize-space()='Dashboard']")
+09/28/2026 10:54:00 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:00 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:00 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:00 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:00 AM: INFO: 🖱️ Clicking on element: ('xpath', "//span[text()='Job ']")
+09/28/2026 10:54:00 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//span[text()='Job ']")
+09/28/2026 10:54:01 AM: INFO: 🖱️ Clicking on element: ('xpath', "//a[text()='Job Titles']")
+09/28/2026 10:54:01 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//a[text()='Job Titles']")
+09/28/2026 10:54:02 AM: INFO: ✅ Pass: Login worked as expected for user: Admin
+09/28/2026 10:54:02 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:02 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:02 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:03 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[text()=' Add ']")
+09/28/2026 10:54:03 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[text()=' Add ']")
+09/28/2026 10:54:04 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:54:04 AM: INFO: Generating random test data using FakerUtility
+09/28/2026 10:54:04 AM: INFO: Generated Job Title: Health pro_18:59:49
+09/28/2026 10:54:04 AM: INFO: Entering job details and uploading specification file
+09/28/2026 10:54:04 AM: INFO: ⌨️ Typing 'Health pro_18:59:49' into ('xpath', "//label[text()='Job Title']/parent::div/following-sibling::div/input")
+09/28/2026 10:54:04 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//label[text()='Job Title']/parent::div/following-sibling::div/input")
+09/28/2026 10:54:04 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:04 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:54:04 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:54:05 AM: INFO: ✅ Pass: Correctly showed error for invalid user: wrongUser
+09/28/2026 10:54:05 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:05 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:05 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:05 AM: INFO: ⌨️ Typing 'Agreement she although choice knowledge especially major.' into ('xpath', "//label[text()='Job Description']/parent::div/following-sibling::div/textarea")
+09/28/2026 10:54:05 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//label[text()='Job Description']/parent::div/following-sibling::div/textarea")
+09/28/2026 10:54:05 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:05 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:54:05 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:05 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:05 AM: INFO: 📁 Attempting to upload file: TestData/job_spec.pdf
+09/28/2026 10:54:05 AM: INFO: ⏳ Waiting for presence of element: ('xpath', "//input[@type='file']")
+09/28/2026 10:54:05 AM: INFO: ✅ File uploaded successfully from: D:\Pycharm Projects\OrangeHRM_with_Selenium_Python\TestData\job_spec.pdf
+09/28/2026 10:54:05 AM: INFO: ⌨️ Typing 'Might ball reduce financial talk loss baby.' into ('xpath', "//label[text()='Note']/parent::div/following-sibling::div/textarea")
+09/28/2026 10:54:05 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//label[text()='Note']/parent::div/following-sibling::div/textarea")
+09/28/2026 10:54:05 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[text()=' Save ']")
+09/28/2026 10:54:05 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[text()=' Save ']")
+09/28/2026 10:54:05 AM: INFO: Verifying success message
+09/28/2026 10:54:05 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Successfully Saved']")
+09/28/2026 10:54:07 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:07 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:54:07 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:54:08 AM: INFO: ✅ Successfully added new job title: Health pro_18:59:49
+09/28/2026 10:54:08 AM: INFO: **** Finished: test_add_new_job ****
+09/28/2026 10:54:08 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:08 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:08 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:08 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:54:08 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:08 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:10 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:10 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:54:10 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:54:11 AM: INFO: Browser window maximized.
+09/28/2026 10:54:11 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:54:11 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:11 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:11 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:11 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:54:11 AM: INFO: **** Starting Data Driven Test: User=wrongUser, Expected=fail ****
+09/28/2026 10:54:11 AM: INFO: ⌨️ Typing 'wrongUser' into ('xpath', "//input[@name='username']")
+09/28/2026 10:54:11 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:54:11 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:11 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:54:11 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:11 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:11 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:11 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:11 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:11 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:12 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:54:13 AM: INFO: ✅ Pass: Correctly showed error for invalid user: wrongUser
+09/28/2026 10:54:13 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:13 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:13 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:15 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:15 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:54:15 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:54:16 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:16 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:54:16 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:16 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:18 AM: INFO: Browser window maximized.
+09/28/2026 10:54:18 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:54:18 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:18 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:18 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:18 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:54:18 AM: INFO: **** Starting: test_login_with_valid_credentials ****
+09/28/2026 10:54:18 AM: INFO: Entering username: Admin
+09/28/2026 10:54:18 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:54:18 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:54:18 AM: INFO: Entering password : admin123
+09/28/2026 10:54:18 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:18 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:18 AM: INFO: Clicking on Login button
+09/28/2026 10:54:18 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:18 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:18 AM: INFO: 🔍 Checking visibility of: ('xpath', "//h6[normalize-space()='Dashboard']")
+09/28/2026 10:54:20 AM: INFO: ✅ Login successful: Dashboard header displayed
+09/28/2026 10:54:20 AM: INFO: **** Finished: test_login_with_valid_credentials ****
+09/28/2026 10:54:20 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:20 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:20 AM: INFO: Browser window maximized.
+09/28/2026 10:54:20 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:54:20 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:20 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:20 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:20 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:54:20 AM: INFO: **** Starting Data Driven Test: User=Admin, Expected=pass ****
+09/28/2026 10:54:20 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:54:20 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:54:21 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:21 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:21 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:21 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:21 AM: INFO: 🔍 Checking visibility of: ('xpath', "//h6[normalize-space()='Dashboard']")
+09/28/2026 10:54:22 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:23 AM: INFO: ✅ Pass: Login worked as expected for user: Admin
+09/28/2026 10:54:23 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:23 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:23 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:25 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:28 AM: INFO: Browser window maximized.
+09/28/2026 10:54:28 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:54:28 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:28 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:28 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:28 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:54:28 AM: INFO: **** Starting Data Driven Test: User=Admin, Expected=fail ****
+09/28/2026 10:54:28 AM: INFO: ⌨️ Typing 'Admin' into ('xpath', "//input[@name='username']")
+09/28/2026 10:54:28 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:54:29 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:29 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:29 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:29 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:30 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:54:39 AM: INFO: ✅ Pass: Correctly showed error for invalid user: Admin
+09/28/2026 10:54:39 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:39 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:39 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:42 AM: INFO: --------- WebDriver Setup Completed ---------
+09/28/2026 10:54:42 AM: INFO: --------- Starting WebDriver Setup ---------
+09/28/2026 10:54:42 AM: INFO: --------- Initializing chrome browser ---------
+09/28/2026 10:54:43 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:43 AM: INFO: Browser configured with implicit wait: 10s
+09/28/2026 10:54:43 AM: INFO: ⚙️ Config Read: [common info] -> baseURL = https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:43 AM: INFO: Opening Application URL: https://opensource-demo.orangehrmlive.com/
+09/28/2026 10:54:49 AM: INFO: Browser window maximized.
+09/28/2026 10:54:49 AM: INFO:  ********** Initializing Page Objects **********
+09/28/2026 10:54:49 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:49 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:49 AM: INFO: ⚙️ Config Read: [common info] -> timeout = 10
+09/28/2026 10:54:49 AM: INFO: Page Objects initialized and attached to the class instance.
+09/28/2026 10:54:49 AM: INFO: **** Starting Data Driven Test: User=wrongUser, Expected=fail ****
+09/28/2026 10:54:49 AM: INFO: ⌨️ Typing 'wrongUser' into ('xpath', "//input[@name='username']")
+09/28/2026 10:54:49 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='username']")
+09/28/2026 10:54:50 AM: INFO: ⌨️ Typing '****' into ('xpath', "//input[@name='password']")
+09/28/2026 10:54:50 AM: INFO: ⏳ Waiting for visibility of element: ('xpath', "//input[@name='password']")
+09/28/2026 10:54:50 AM: INFO: 🖱️ Clicking on element: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:50 AM: INFO: ⏳ Waiting for element to be clickable: ('xpath', "//button[normalize-space()='Login']")
+09/28/2026 10:54:51 AM: INFO: 🔍 Checking visibility of: ('xpath', "//p[text()='Invalid credentials']")
+09/28/2026 10:54:52 AM: INFO: ✅ Pass: Correctly showed error for invalid user: wrongUser
+09/28/2026 10:54:52 AM: INFO: **** Finished Data Driven Test Case ****
+09/28/2026 10:54:52 AM: INFO: Quitting WebDriver and closing browser.
+09/28/2026 10:54:52 AM: INFO: --------- chrome Browser Closed ---------
+09/28/2026 10:54:54 AM: INFO: --------- WebDriver Setup Completed ---------
